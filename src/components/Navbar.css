@@ -1,0 +1,85 @@
+.game-navbar {
+  background: linear-gradient(135deg, #2c3e50 0%, #1a2a3a 100%);
+  padding: 1rem 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.game-navbar-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.game-nav-btn {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 20px;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.game-nav-btn i {
+  font-size: 1.2rem;
+}
+
+.game-nav-btn span {
+  display: inline-block;
+}
+
+.home-btn {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #3498db;
+}
+
+.home-btn:hover {
+  background: rgba(52, 152, 219, 0.2);
+  transform: translateY(-2px);
+}
+
+.add-btn {
+  background: #3498db;
+  box-shadow: 0 4px 6px rgba(52, 152, 219, 0.3);
+}
+
+.add-btn:hover {
+  background: #2980b9;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(52, 152, 219, 0.4);
+}
+
+@media (max-width: 768px) {
+  .game-navbar-container {
+    padding: 0 15px;
+  }
+  
+  .game-nav-btn {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .game-nav-btn span {
+    display: none;
+  }
+  
+  .game-nav-btn i {
+    font-size: 1.4rem;
+    margin: 0;
+  }
+  
+  .game-nav-btn {
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+  }
+}
