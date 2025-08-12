@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-alpha/static/css/main.33c4fd9d.css",
-    "main.js": "/react-alpha/static/js/main.01490009.js",
+    "main.js": "/react-alpha/static/js/main.1e334091.js",
     "index.html": "/react-alpha/index.html",
     "main.33c4fd9d.css.map": "/react-alpha/static/css/main.33c4fd9d.css.map",
-    "main.01490009.js.map": "/react-alpha/static/js/main.01490009.js.map"
+    "main.1e334091.js.map": "/react-alpha/static/js/main.1e334091.js.map"
   },
   "entrypoints": [
     "static/css/main.33c4fd9d.css",
-    "static/js/main.01490009.js"
+    "static/js/main.1e334091.js"
   ]
 }
