@@ -6,10 +6,11 @@ import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { store } from './store/store.js';
 
+const repoName = '/react-alpha';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={repoName}>
       <Provider store={store}>
         <App />
       </Provider>
