@@ -11,7 +11,7 @@ const Navbar = () => {
           <span>Главная</span>
         </Link>
         
-        <Link to="/create-product" className="game-nav-btn add-btn">
+        <Link to="/create-game" className="game-nav-btn add-btn">
           <i className="fas fa-plus-circle"></i>
           <span>Добавить игру</span>
         </Link>

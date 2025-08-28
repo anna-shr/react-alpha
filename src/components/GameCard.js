@@ -33,7 +33,7 @@ const GameCard = ({ game }) => {
         </button>
       )}
       
-      <Link to={`/products/${game.id}`} className="game-card-link">
+      <Link to={`/games/${game.id}`} className="game-card-link">
         <img 
           src={game.thumbnail} 
           alt={game.title} 

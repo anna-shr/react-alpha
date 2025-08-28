@@ -76,7 +76,7 @@ const GamesList = () => {
   };
 
   if (loading) return <div className="loading">Loading games...</div>;
-  if (error) return <div className="error">Error: {error}</div>;
+  if (error) return <div className="load-error">Error: {error}</div>;
 
   return (
     <div className="games-container">
@@ -122,7 +122,7 @@ const GamesList = () => {
         ) : (
           isLoaded && (
             <div className="no-results">
-              No games found matching your criteria
+              No games found
             </div>
           )
         )}

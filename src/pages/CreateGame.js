@@ -49,11 +49,11 @@ const CreateGame = () => {
       publisher: formData.publisher,
       image: formData.image
     }));
-    navigate('/products');
+    navigate('/games');
   };
 
   return (
-    <div className="create-product-container">
+    <div className="create-game-container">
       <h2>Добавить новую игру</h2>
       <form onSubmit={handleSubmit} className="game-form">
         <div className="form-group">

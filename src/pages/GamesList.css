@@ -283,45 +283,11 @@
 }
 
 .loading,
-.error,
+.load-error,
 .no-results {
   text-align: center;
   padding: 40px;
   font-size: 1.1rem;
-}
-
-.loading-spinner {
-  text-align: center;
-  padding: 50px;
-  font-size: 1.2rem;
-  color: #3498db;
-}
-
-.loading-spinner::after {
-  content: "";
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  border: 3px solid rgba(52, 152, 219, 0.3);
-  border-radius: 50%;
-  border-top-color: #3498db;
-  animation: spin 1s ease-in-out infinite;
-  margin-left: 10px;
-  vertical-align: middle;
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-.error,
-.error-message {
-  color: #e74c3c;
-  background: #fde8e8;
-  border-radius: 8px;
-  max-width: 600px;
-  margin: 30px auto;
 }
 
 .no-results {

@@ -1,4 +1,4 @@
-.create-product-container {
+.create-game-container {
   max-width: 500px;
   margin: 1rem auto;
   padding: 1rem;
@@ -33,21 +33,22 @@
   font-size: 0.9rem;
 }
 
-.form-group textarea {
-  min-height: 80px;
-  resize: vertical;
-}
-
-.error {
-  border-color: #ff4444;
-  text-align: left;
+.form-group input.error,
+.form-group textarea.error {
+  border: 1px solid #ff4444;
+  background: #fde8e8;
 }
 
 .error-message {
+  width: 100%;
   color: #ff4444;
   font-size: 0.8rem;
-  padding: 10px;
-  margin: 0;
+  background: #fde8e8;
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .submit-btn {
